@@ -256,7 +256,7 @@ select {
 
 @font-face {
   font-family: "Inter";
-  src: url("/src/assets/fonts/Inter-VariableFont.ttf") format("ttf");
+  src: url("/src/assets/fonts/Inter-VariableFont.ttf") format("truetype");
   font-weight: 400;
 }
 body {
