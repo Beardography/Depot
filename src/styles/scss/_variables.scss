@@ -1,4 +1,4 @@
-// Colors
+// COLORS
 $orange: #ff5000;
 $purple: #7832b4;
 $blue: #0095dd;
@@ -7,3 +7,25 @@ $yellow: #faa400;
 $gray: #b2b2b2;
 $black: #0f0e12;
 $white: #e5e5e5;
+
+$colors: (
+  'orange': $orange,
+  'purple': $purple,
+  'blue': $blue,
+  'green': $green,
+  'yellow': $yellow,
+  'gray': $gray,
+  'black': $black,
+  'white': $white
+);
+
+// FUNCTIONS
+// tint function
+@function tint-color($color, $percentage) {
+  @return mix(white, $color, $percentage);
+}
+
+// shade function
+@function shade-color($color, $percentage) {
+  @return mix(black, $color, $percentage);
+}
