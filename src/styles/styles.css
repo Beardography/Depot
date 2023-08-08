@@ -1,0 +1,261 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+}
+.swatches .swatch {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(1) {
+  background-color: #ffdccc;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(2) {
+  background-color: #ffb999;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(3) {
+  background-color: #ff9666;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(4) {
+  background-color: #ff7333;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(5) {
+  background-color: #ff5000;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(6) {
+  background-color: #cc4000;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(7) {
+  background-color: #993000;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(8) {
+  background-color: #662000;
+}
+.swatches:nth-of-type(1) .swatch:nth-of-type(9) {
+  background-color: #331000;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(1) {
+  background-color: #e4d6f0;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(2) {
+  background-color: #c9ade1;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(3) {
+  background-color: #ae84d2;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(4) {
+  background-color: #935bc3;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(5) {
+  background-color: #7832b4;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(6) {
+  background-color: #602890;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(7) {
+  background-color: #481e6c;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(8) {
+  background-color: #301448;
+}
+.swatches:nth-of-type(2) .swatch:nth-of-type(9) {
+  background-color: #180a24;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(1) {
+  background-color: #cceaf8;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(2) {
+  background-color: #99d5f1;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(3) {
+  background-color: #66bfeb;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(4) {
+  background-color: #33aae4;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(5) {
+  background-color: #0095dd;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(6) {
+  background-color: #0077b1;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(7) {
+  background-color: #005985;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(8) {
+  background-color: #003c58;
+}
+.swatches:nth-of-type(3) .swatch:nth-of-type(9) {
+  background-color: #001e2c;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(1) {
+  background-color: #cce1d7;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(2) {
+  background-color: #99c3af;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(3) {
+  background-color: #66a487;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(4) {
+  background-color: #33865f;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(5) {
+  background-color: #006837;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(6) {
+  background-color: #00532c;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(7) {
+  background-color: #003e21;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(8) {
+  background-color: #002a16;
+}
+.swatches:nth-of-type(4) .swatch:nth-of-type(9) {
+  background-color: #00150b;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(1) {
+  background-color: #feedcc;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(2) {
+  background-color: #fddb99;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(3) {
+  background-color: #fcc866;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(4) {
+  background-color: #fbb633;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(5) {
+  background-color: #faa400;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(6) {
+  background-color: #c88300;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(7) {
+  background-color: #966200;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(8) {
+  background-color: #644200;
+}
+.swatches:nth-of-type(5) .swatch:nth-of-type(9) {
+  background-color: #322100;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(1) {
+  background-color: #fcd3d3;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(2) {
+  background-color: #f9a7a6;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(3) {
+  background-color: #f77b7a;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(4) {
+  background-color: #f44f4d;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(5) {
+  background-color: #f12321;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(6) {
+  background-color: #c11c1a;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(7) {
+  background-color: #911514;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(8) {
+  background-color: #600e0d;
+}
+.swatches:nth-of-type(6) .swatch:nth-of-type(9) {
+  background-color: #300707;
+}
+
+body {
+  background-color: #e5e5e5;
+  color: #0f0e12;
+  font-family: "Roboto", sans-serif;
+}/*# sourceMappingURL=styles.css.map */

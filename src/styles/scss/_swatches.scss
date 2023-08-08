@@ -1,0 +1,251 @@
+.swatches {
+  display: flex;
+  flex-wrap: wrap;
+
+  .swatch {
+    width: 100px;
+    height: 100px;
+    // border: 1px solid black;
+    margin: 5px;
+  }
+
+  &:nth-of-type(1) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $orange-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $orange-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $orange-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $orange-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $orange-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $orange-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $orange-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $orange-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $orange-900;
+      }
+    }
+  }
+
+  &:nth-of-type(2) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $purple-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $purple-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $purple-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $purple-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $purple-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $purple-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $purple-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $purple-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $purple-900;
+      }
+    }
+  }
+
+  &:nth-of-type(3) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $blue-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $blue-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $blue-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $blue-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $blue-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $blue-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $blue-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $blue-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $blue-900;
+      }
+    }
+  }
+
+  &:nth-of-type(4) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $green-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $green-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $green-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $green-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $green-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $green-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $green-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $green-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $green-900;
+      }
+    }
+  }
+
+  &:nth-of-type(5) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $yellow-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $yellow-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $yellow-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $yellow-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $yellow-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $yellow-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $yellow-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $yellow-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $yellow-900;
+      }
+    }
+  }
+
+  &:nth-of-type(6) {
+    .swatch {
+      &:nth-of-type(1) {
+        background-color: $red-100;
+      }
+
+      &:nth-of-type(2) {
+        background-color: $red-200;
+      }
+
+      &:nth-of-type(3) {
+        background-color: $red-300;
+      }
+
+      &:nth-of-type(4) {
+        background-color: $red-400;
+      }
+
+      &:nth-of-type(5) {
+        background-color: $red-500;
+      }
+
+      &:nth-of-type(6) {
+        background-color: $red-600;
+      }
+
+      &:nth-of-type(7) {
+        background-color: $red-700;
+      }
+
+      &:nth-of-type(8) {
+        background-color: $red-800;
+      }
+
+      &:nth-of-type(9) {
+        background-color: $red-900;
+      }
+    }
+  }
+}
