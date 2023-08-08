@@ -1,12 +1,13 @@
 // COLORS
-$orange: #ff5000;
-$purple: #7832b4;
-$blue: #0095dd;
-$green: #006837;
-$yellow: #faa400;
-$gray: #b2b2b2;
-$black: #0f0e12;
-$white: #e5e5e5;
+$orange: #ff5000 !default;
+$purple: #7832b4 !default;
+$blue: #0095dd !default;
+$green: #006837 !default;
+$yellow: #faa400 !default;
+$red: #f12321 !default;
+$gray: #b2b2b2 !default;
+$black: #0f0e12 !default;
+$white: #e5e5e5 !default;
 
 $colors: (
   'orange': $orange,
@@ -17,7 +18,7 @@ $colors: (
   'gray': $gray,
   'black': $black,
   'white': $white
-);
+) !default;
 
 // FUNCTIONS
 // tint function
@@ -31,11 +32,139 @@ $colors: (
 }
 
 // Oranges
+$orange-100: tint-color($orange, 80%) !default;
+$orange-200: tint-color($orange, 60%) !default;
+$orange-300: tint-color($orange, 40%) !default;
+$orange-400: tint-color($orange, 20%) !default;
+$orange-500: $orange !default;
+$orange-600: shade-color($orange, 20%) !default;
+$orange-700: shade-color($orange, 40%) !default;
+$orange-800: shade-color($orange, 60%) !default;
+$orange-900: shade-color($orange, 80%) !default;
+
+$oranges: (
+  'orange-100': $orange-100,
+  'orange-200': $orange-200,
+  'orange-300': $orange-300,
+  'orange-400': $orange-400,
+  'orange-500': $orange-500,
+  'orange-600': $orange-600,
+  'orange-700': $orange-700,
+  'orange-800': $orange-800,
+  'orange-900': $orange-900
+) !default;
 
 // Purples
+$purple-100: tint-color($purple, 80%) !default;
+$purple-200: tint-color($purple, 60%) !default;
+$purple-300: tint-color($purple, 40%) !default;
+$purple-400: tint-color($purple, 20%) !default;
+$purple-500: $purple !default;
+$purple-600: shade-color($purple, 20%) !default;
+$purple-700: shade-color($purple, 40%) !default;
+$purple-800: shade-color($purple, 60%) !default;
+$purple-900: shade-color($purple, 80%) !default;
+
+$purples: (
+  'purple-100': $purple-100,
+  'purple-200': $purple-200,
+  'purple-300': $purple-300,
+  'purple-400': $purple-400,
+  'purple-500': $purple-500,
+  'purple-600': $purple-600,
+  'purple-700': $purple-700,
+  'purple-800': $purple-800,
+  'purple-900': $purple-900
+) !default;
 
 // Blue
+$blue-100: tint-color($blue, 80%) !default;
+$blue-200: tint-color($blue, 60%) !default;
+$blue-300: tint-color($blue, 40%) !default;
+$blue-400: tint-color($blue, 20%) !default;
+$blue-500: $blue !default;
+$blue-600: shade-color($blue, 20%) !default;
+$blue-700: shade-color($blue, 40%) !default;
+$blue-800: shade-color($blue, 60%) !default;
+$blue-900: shade-color($blue, 80%) !default;
+
+$blues: (
+  'blue-100': $blue-100,
+  'blue-200': $blue-200,
+  'blue-300': $blue-300,
+  'blue-400': $blue-400,
+  'blue-500': $blue-500,
+  'blue-600': $blue-600,
+  'blue-700': $blue-700,
+  'blue-800': $blue-800,
+  'blue-900': $blue-900
+) !default;
 
 // Greens
+$green-100: tint-color($green, 80%) !default;
+$green-200: tint-color($green, 60%) !default;
+$green-300: tint-color($green, 40%) !default;
+$green-400: tint-color($green, 20%) !default;
+$green-500: $green !default;
+$green-600: shade-color($green, 20%) !default;
+$green-700: shade-color($green, 40%) !default;
+$green-800: shade-color($green, 60%) !default;
+$green-900: shade-color($green, 80%) !default;
+
+$greens: (
+  'green-100': $green-100,
+  'green-200': $green-200,
+  'green-300': $green-300,
+  'green-400': $green-400,
+  'green-500': $green-500,
+  'green-600': $green-600,
+  'green-700': $green-700,
+  'green-800': $green-800,
+  'green-900': $green-900
+) !default;
 
 // Yellows
+$yellow-100: tint-color($yellow, 80%) !default;
+$yellow-200: tint-color($yellow, 60%) !default;
+$yellow-300: tint-color($yellow, 40%) !default;
+$yellow-400: tint-color($yellow, 20%) !default;
+$yellow-500: $yellow !default;
+$yellow-600: shade-color($yellow, 20%) !default;
+$yellow-700: shade-color($yellow, 40%) !default;
+$yellow-800: shade-color($yellow, 60%) !default;
+$yellow-900: shade-color($yellow, 80%) !default;
+
+$yellows: (
+  'yellow-100': $yellow-100,
+  'yellow-200': $yellow-200,
+  'yellow-300': $yellow-300,
+  'yellow-400': $yellow-400,
+  'yellow-500': $yellow-500,
+  'yellow-600': $yellow-600,
+  'yellow-700': $yellow-700,
+  'yellow-800': $yellow-800,
+  'yellow-900': $yellow-900
+) !default;
+
+// Reds
+$red-100: tint-color($red, 80%) !default;
+$red-200: tint-color($red, 60%) !default;
+$red-300: tint-color($red, 40%) !default;
+$red-400: tint-color($red, 20%) !default;
+$red-500: $red !default;
+$red-600: shade-color($red, 20%) !default;
+$red-700: shade-color($red, 40%) !default;
+$red-800: shade-color($red, 60%) !default;
+$red-900: shade-color($red, 80%) !default;
+
+$reds: (
+  'red-100': $red-100,
+  'red-200': $red-200,
+  'red-300': $red-300,
+  'red-400': $red-400,
+  'red-500': $red-500,
+  'red-600': $red-600,
+  'red-700': $red-700,
+  'red-800': $red-800,
+  'red-900': $red-900
+) !default;
