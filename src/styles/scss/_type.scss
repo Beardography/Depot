@@ -1,0 +1,89 @@
+////////////////////////////////////////
+// import local fonts here
+@font-face {
+  font-family: 'Inter';
+  src: url('/src/assets/fonts/Inter-VariableFont.ttf') format('ttf');
+  font-weight: 400;
+}
+////////////////////////////////////////
+
+body {
+  font-family: 'Inter', serif;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 6.31125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 8.20463rem; /* 130% */
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 4.735rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 6.1555rem; /* 130% */
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 3.55188rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 4.61744rem; /* 130% */
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 2.66438rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.46369rem; /* 130% */
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.99875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.59838rem; /* 130% */
+  letter-spacing: 0.09994rem;
+  text-transform: uppercase;
+}
+
+h6 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.62388rem; /* 174.927% */
+  letter-spacing: 0.06rem;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.96875rem; /* 175% */
+  letter-spacing: 0.05625rem;
+}
+
+small {
+  font-size: 0.84375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.47656rem; /* 175% */
+  letter-spacing: 0.08438rem;
+  text-transform: uppercase;
+}
+
+caption {
+  font-size: 0.84375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.47656rem; /* 175% */
+  letter-spacing: 0.08438rem;
+  text-transform: uppercase;
+}
