@@ -257,17 +257,17 @@ select {
 @font-face {
   font-family: "Inter";
   src: url("/src/assets/fonts/Inter-VariableFont.ttf") format("truetype");
-  font-weight: 400;
+  font-weight: 300 700;
 }
 body {
   font-family: "Inter", serif;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 h1 {
   font-size: 6.31125rem;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   line-height: 8.20463rem; /* 130% */
   text-transform: uppercase;
 }
@@ -308,7 +308,7 @@ h5 {
 h6 {
   font-size: 1.5rem;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 2.62388rem; /* 174.927% */
   letter-spacing: 0.06rem;
   text-transform: uppercase;
