@@ -1,0 +1,168 @@
+$xs: 4px; // 0.25rem;
+$sm: 8px; // 0.5rem;
+$md: 16px; // 1rem;
+$lg: 24px; // 1.5rem;
+$xl: 32px; // 2rem;
+$xxl: 64px; // 4rem;
+
+// PADDING
+// XS
+@mixin padding-y-xs {
+  padding-top: $xs;
+  padding-bottom: $xs;
+}
+
+@mixin padding-x-xs {
+  padding-left: $xs;
+  padding-right: $xs;
+}
+
+@mixin padding-xs {
+  @include padding-y-xs;
+  @include padding-x-xs;
+}
+
+// SM
+@mixin padding-y-sm {
+  padding-top: $sm;
+  padding-bottom: $sm;
+}
+
+@mixin padding-x-sm {
+  padding-left: $sm;
+  padding-right: $sm;
+}
+
+@mixin padding-sm {
+  @include padding-y-sm;
+  @include padding-x-sm;
+}
+
+// MD
+@mixin padding-y-md {
+  padding-top: $md;
+  padding-bottom: $md;
+}
+
+@mixin padding-x-md {
+  padding-left: $md;
+  padding-right: $md;
+}
+
+@mixin padding-md {
+  @include padding-y-md;
+  @include padding-x-md;
+}
+
+// LG
+@mixin padding-y-lg {
+  padding-top: $lg;
+  padding-bottom: $lg;
+}
+
+@mixin padding-x-lg {
+  padding-left: $lg;
+  padding-right: $lg;
+}
+
+@mixin padding-lg {
+  @include padding-y-lg;
+  @include padding-x-lg;
+}
+
+// XL
+@mixin padding-y-xl {
+  padding-top: $xl;
+  padding-bottom: $xl;
+}
+
+@mixin padding-x-xl {
+  padding-left: $xl;
+  padding-right: $xl;
+}
+
+@mixin padding-xl {
+  @include padding-y-xl;
+  @include padding-x-xl;
+}
+
+////////// MARGINS //////////
+// XS
+@mixin margin-y-xs {
+  margin-top: $xs;
+  margin-bottom: $xs;
+}
+
+@mixin margin-x-xs {
+  margin-left: $xs;
+  margin-right: $xs;
+}
+
+@mixin margin-xs {
+  @include margin-y-xs;
+  @include margin-x-xs;
+}
+
+// SM
+@mixin margin-y-sm {
+  margin-top: $sm;
+  margin-bottom: $sm;
+}
+
+@mixin margin-x-sm {
+  margin-left: $sm;
+  margin-right: $sm;
+}
+
+@mixin margin-sm {
+  @include margin-y-sm;
+  @include margin-x-sm;
+}
+
+// MD
+@mixin margin-y-md {
+  margin-top: $md;
+  margin-bottom: $md;
+}
+
+@mixin margin-x-md {
+  margin-left: $md;
+  margin-right: $md;
+}
+
+@mixin margin-md {
+  @include margin-y-md;
+  @include margin-x-md;
+}
+
+// LG
+@mixin margin-y-lg {
+  margin-top: $lg;
+  margin-bottom: $lg;
+}
+
+@mixin margin-x-lg {
+  margin-left: $lg;
+  margin-right: $lg;
+}
+
+@mixin margin-lg {
+  @include margin-y-lg;
+  @include margin-x-lg;
+}
+
+// XL
+@mixin margin-y-xl {
+  margin-top: $xl;
+  margin-bottom: $xl;
+}
+
+@mixin margin-x-xl {
+  margin-left: $xl;
+  margin-right: $xl;
+}
+
+@mixin margin-xl {
+  @include margin-xl-y;
+  @include margin-xl-x;
+}
