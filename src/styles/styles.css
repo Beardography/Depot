@@ -354,7 +354,12 @@ a:visited {
 
 button {
   border-radius: 0px;
-  border: 1px solid #d1d1d1;
+  border: 1px solid #c1c1c1;
+  color: #242424;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
 }
 button.lg {
   padding-top: 16px;
@@ -374,4 +379,35 @@ button.small, button.sm {
   padding-right: 8px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+button.primary {
+  background-color: #b2b2b2;
+  border: 0;
+}
+button.primary:hover {
+  background-color: #8e8e8e;
+}
+button.secondary {
+  background-color: transparent;
+  border: 1px solid #c1c1c1;
+}
+button.secondary:hover {
+  background-color: #c1c1c1;
+}
+button.danger {
+  background-color: #f12321;
+  color: #e5e5e5;
+  border: 0;
+}
+button.danger:hover {
+  background-color: #c11c1a;
+}
+button.danger-secondary {
+  background-color: transparent;
+  color: #f12321;
+  border: 1px solid #f12321;
+}
+button.danger-secondary:hover {
+  background-color: #f12321;
+  color: #e5e5e5;
 }/*# sourceMappingURL=styles.css.map */
