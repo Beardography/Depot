@@ -1,0 +1,32 @@
+@import './mixins/spacing';
+
+button {
+  //   border: none;
+  border-radius: 0px;
+  border: 1px solid $gray-300;
+
+  &.lg {
+    // background-color: orange;
+    // @include padding-x-lg;
+    // @include padding-y-md;
+    @include padding-md;
+    font-size: 1.25rem;
+  }
+
+  &.medium,
+  &.md {
+    // background-color: red;
+    // @include padding-x-md;
+    // @include padding-y-sm;
+    @include padding-x-md;
+    @include padding-y-sm;
+  }
+
+  &.small,
+  &.sm {
+    // background-color: purple;
+    // @include padding-sm;
+    @include padding-x-sm;
+    @include padding-y-xs;
+  }
+}
