@@ -10,6 +10,12 @@ button {
     background-color: $gray-300;
   }
 
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $gray-400;
+    color: $gray-600;
+  }
+
   &.lg {
     @include padding-md;
     font-size: 1.25rem;
@@ -34,6 +40,13 @@ button {
     &:hover {
       background-color: $gray-600;
     }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
   }
 
   &.secondary {
@@ -42,6 +55,13 @@ button {
 
     &:hover {
       background-color: $gray-400;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
     }
   }
 
@@ -53,6 +73,13 @@ button {
     &:hover {
       background-color: $red-600;
     }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
   }
 
   &.danger-secondary {
@@ -63,6 +90,13 @@ button {
     &:hover {
       background-color: $red-500;
       color: $white;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
     }
   }
 }

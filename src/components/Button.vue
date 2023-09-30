@@ -17,7 +17,7 @@ defineProps({
 </script>
 
 <template>
-  <button :class="[size, type]">
+  <button :class="[size, type]" :disabled="disabled">
     {{ text }}
   </button>
 </template>

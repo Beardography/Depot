@@ -361,6 +361,11 @@ button:hover {
   cursor: pointer;
   background-color: #d1d1d1;
 }
+button:disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #8e8e8e;
+}
 button.lg {
   padding-top: 16px;
   padding-bottom: 16px;
@@ -387,12 +392,24 @@ button.primary {
 button.primary:hover {
   background-color: #8e8e8e;
 }
+button.primary:disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #8e8e8e;
+  border: 0;
+}
 button.secondary {
   background-color: transparent;
   border: 1px solid #c1c1c1;
 }
 button.secondary:hover {
   background-color: #c1c1c1;
+}
+button.secondary:disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #8e8e8e;
+  border: 0;
 }
 button.danger {
   background-color: #f12321;
@@ -402,6 +419,12 @@ button.danger {
 button.danger:hover {
   background-color: #c11c1a;
 }
+button.danger:disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #8e8e8e;
+  border: 0;
+}
 button.danger-secondary {
   background-color: transparent;
   color: #f12321;
@@ -410,4 +433,10 @@ button.danger-secondary {
 button.danger-secondary:hover {
   background-color: #f12321;
   color: #e5e5e5;
+}
+button.danger-secondary:disabled {
+  cursor: not-allowed;
+  background-color: #c1c1c1;
+  color: #8e8e8e;
+  border: 0;
 }/*# sourceMappingURL=styles.css.map */
