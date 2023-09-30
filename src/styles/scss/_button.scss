@@ -1,0 +1,102 @@
+@import './mixins/spacing';
+
+button {
+  border-radius: 0px;
+  border: 1px solid $gray-400;
+  color: $gray-900;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $gray-300;
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    background-color: $gray-400;
+    color: $gray-600;
+  }
+
+  &.lg {
+    @include padding-md;
+    font-size: 1.25rem;
+  }
+
+  &.medium,
+  &.md {
+    @include padding-x-md;
+    @include padding-y-sm;
+  }
+
+  &.small,
+  &.sm {
+    @include padding-x-sm;
+    @include padding-y-xs;
+  }
+
+  &.primary {
+    background-color: $gray-500;
+    border: 0;
+
+    &:hover {
+      background-color: $gray-600;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
+  }
+
+  &.secondary {
+    background-color: transparent;
+    border: 1px solid $gray-400;
+
+    &:hover {
+      background-color: $gray-400;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
+  }
+
+  &.danger {
+    background-color: $red-500;
+    color: $white;
+    border: 0;
+
+    &:hover {
+      background-color: $red-600;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
+  }
+
+  &.danger-secondary {
+    background-color: transparent;
+    color: $red-500;
+    border: 1px solid $red-500;
+
+    &:hover {
+      background-color: $red-500;
+      color: $white;
+    }
+
+    &:disabled {
+      cursor: not-allowed;
+      background-color: $gray-400;
+      color: $gray-600;
+      border: 0;
+    }
+  }
+}
