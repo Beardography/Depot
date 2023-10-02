@@ -1,0 +1,72 @@
+@import './mixins/spacing';
+
+.tag {
+  background-color: $gray-100;
+  border: 1px solid $gray-300;
+  color: $gray-800;
+  border-radius: 5rem;
+  display: inline-block;
+  font-weight: 400;
+
+  &.large,
+  &.lg {
+    font-size: 1rem;
+    @include padding-y-sm;
+    @include padding-x-md;
+  }
+
+  &.medium,
+  &.md {
+    font-size: 0.75rem;
+    @include padding-y-xs;
+    @include padding-x-sm;
+  }
+
+  &.success,
+  &.green {
+    background-color: $green-100;
+    border: 1px solid $green-300;
+    color: $green-800;
+  }
+
+  &.error,
+  &.red {
+    background-color: $red-100;
+    border: 1px solid $red-300;
+    color: $red-800;
+  }
+
+  &.warning,
+  &.yellow {
+    background-color: $yellow-100;
+    border: 1px solid $yellow-300;
+    color: $yellow-800;
+  }
+
+  &.waiting,
+  &.default {
+    background-color: $gray-100;
+    border: 1px solid $gray-300;
+    color: $gray-800;
+  }
+
+  &.processing,
+  &.blue {
+    background-color: $blue-100;
+    border: 1px solid $blue-300;
+    color: $blue-800;
+  }
+
+  &.info,
+  &.purple {
+    background-color: $purple-100;
+    border: 1px solid $purple-300;
+    color: $purple-800;
+  }
+
+  &.orange {
+    background-color: $orange-100;
+    border: 1px solid $orange-300;
+    color: $orange-800;
+  }
+}
