@@ -439,4 +439,62 @@ button.danger-secondary:disabled {
   background-color: #c1c1c1;
   color: #8e8e8e;
   border: 0;
+}
+
+.tag {
+  background-color: #f0f0f0;
+  border: 1px solid #d1d1d1;
+  color: #474747;
+  border-radius: 5rem;
+  display: inline-block;
+  font-weight: 400;
+}
+.tag.large, .tag.lg {
+  font-size: 1rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.tag.medium, .tag.md {
+  font-size: 0.75rem;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.tag.success, .tag.green {
+  background-color: #cce1d7;
+  border: 1px solid #66a487;
+  color: #002a16;
+}
+.tag.error, .tag.red {
+  background-color: #fcd3d3;
+  border: 1px solid #f77b7a;
+  color: #600e0d;
+}
+.tag.warning, .tag.yellow {
+  background-color: #feedcc;
+  border: 1px solid #fcc866;
+  color: #644200;
+}
+.tag.waiting, .tag.default {
+  background-color: #f0f0f0;
+  border: 1px solid #d1d1d1;
+  color: #474747;
+}
+.tag.processing, .tag.blue {
+  background-color: #cceaf8;
+  border: 1px solid #66bfeb;
+  color: #003c58;
+}
+.tag.info, .tag.purple {
+  background-color: #e4d6f0;
+  border: 1px solid #ae84d2;
+  color: #301448;
+}
+.tag.orange {
+  background-color: #ffdccc;
+  border: 1px solid #ff9666;
+  color: #662000;
 }/*# sourceMappingURL=styles.css.map */
