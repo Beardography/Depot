@@ -5,5 +5,5 @@ import Switch from '../components/Switch.vue'
 <template>
   <Switch label="With Label" :showLabel="true" for="tester" />
   <br /><br />
-  <Switch label="With Label" :showLabel="false" size="large" />
+  <Switch label="With Label" :showLabel="true" size="large" />
 </template>
