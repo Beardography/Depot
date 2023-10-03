@@ -497,4 +497,72 @@ button.danger-secondary:disabled {
   background-color: #ffdccc;
   border: 1px solid #ff9666;
   color: #662000;
+}
+
+.toggle {
+  display: flex;
+  flex-direction: column;
+}
+.toggle .label {
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+.toggle.large .switch, .toggle.lg .switch {
+  width: 3rem;
+  height: 1.75rem;
+}
+.toggle.large .switch .slider:before, .toggle.lg .switch .slider:before {
+  height: 1.25rem;
+  width: 1.25rem;
+  left: 4px;
+  bottom: 4px;
+}
+.toggle.large input:checked + .slider:before, .toggle.lg input:checked + .slider:before {
+  transform: translateX(1.25rem);
+}
+.toggle.medium .switch, .toggle.md .switch {
+  width: 2.25rem;
+  height: 1.5rem;
+}
+.toggle.medium .switch .slider:before, .toggle.md .switch .slider:before {
+  height: 1rem;
+  width: 1rem;
+  left: 4px;
+  bottom: 4px;
+}
+.toggle.medium input:checked + .slider:before, .toggle.md input:checked + .slider:before {
+  transform: translateX(0.75rem);
+}
+.toggle .switch {
+  display: inline-block;
+  position: relative;
+}
+.toggle .switch .slider {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b2b2b2;
+  transition: 0.3s;
+  border-radius: 5rem;
+  cursor: pointer;
+}
+.toggle .switch .slider:before {
+  position: absolute;
+  content: "";
+  background-color: #e0e0e0;
+  transition: 0.3s;
+  border-radius: 5rem;
+}
+.toggle .switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+.toggle .switch input:checked + .slider {
+  background-color: #0077b1;
+}
+.toggle .switch input:focus + .slider {
+  box-shadow: 0 0 1px #0077b1;
 }/*# sourceMappingURL=styles.css.map */
