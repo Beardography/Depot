@@ -253,6 +253,33 @@ select {
 .swatches:nth-of-type(6) .swatch:nth-of-type(9) {
   background-color: #300707;
 }
+.swatches:nth-of-type(7) .swatch:nth-of-type(1) {
+  background-color: #f0f0f0;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(2) {
+  background-color: #e0e0e0;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(3) {
+  background-color: #d1d1d1;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(4) {
+  background-color: #c1c1c1;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(5) {
+  background-color: #b2b2b2;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(6) {
+  background-color: #8e8e8e;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(7) {
+  background-color: #6b6b6b;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(8) {
+  background-color: #474747;
+}
+.swatches:nth-of-type(7) .swatch:nth-of-type(9) {
+  background-color: #242424;
+}
 
 @font-face {
   font-family: "Inter";
@@ -348,8 +375,14 @@ body {
 a {
   color: #0095dd;
 }
+a:hover {
+  color: #33aae4;
+}
 a:visited {
   color: #7832b4;
+}
+a:visited:hover {
+  color: #935bc3;
 }
 
 button {
@@ -431,8 +464,9 @@ button.danger-secondary {
   border: 1px solid #f12321;
 }
 button.danger-secondary:hover {
-  background-color: #f12321;
+  background-color: #c11c1a;
   color: #e5e5e5;
+  border-color: #c11c1a;
 }
 button.danger-secondary:disabled {
   cursor: not-allowed;

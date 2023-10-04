@@ -88,8 +88,9 @@ button {
     border: 1px solid $red-500;
 
     &:hover {
-      background-color: $red-500;
+      background-color: $red-600;
       color: $white;
+      border-color: $red-600;
     }
 
     &:disabled {

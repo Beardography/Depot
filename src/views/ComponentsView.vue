@@ -33,6 +33,7 @@ import Tag from '../components/Tag.vue'
   <br />
   <br />
   <br />
+  <h3>Tags</h3>
   <Tag size="lg" text="this is a tag and all this other stuff" />
   <Tag size="md" />
 

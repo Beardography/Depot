@@ -1,7 +1,15 @@
 a {
   color: $blue;
 
+  &:hover {
+    color: $blue-400;
+  }
+
   &:visited {
     color: $purple;
+
+    &:hover {
+      color: $purple-400;
+    }
   }
 }
